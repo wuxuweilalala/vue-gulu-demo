@@ -53,13 +53,13 @@
 .g-button.icon-right > .content {
   order: 1;
 }
-.g-button .loading {
-  animation: spin 1s infinite linear;
-}
 .g-icon[data-v-d1fc54] {
   width: 1em;
   height: 1em;
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
+}
+.loading[data-v-d1fc54] {
+  animation: spin 1s infinite linear;
 }

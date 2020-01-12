@@ -20,10 +20,9 @@
 
 <body>
     <div id="app">
-
-        <g-button icon="settings"> 按钮</g-button>
+        <g-button :loading="loading1" @click="loading1 = !loading1"> 按钮</g-button>
+        <g-button icon="settings" :loading="true"> 按钮</g-button>
         <g-button icon="settings" icon-position="right"> 按钮</g-button>
-        <g-icon name="loading"></g-icon>
     </div>
 
     <script src="/app.a6a4d504.js"></script>

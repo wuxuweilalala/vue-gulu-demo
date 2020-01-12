@@ -18,4 +18,7 @@ export default {
   fill: currentColor;
   overflow: hidden;
 }
+  .loading {
+    animation: spin 1s infinite linear;
+  }
 </style>
