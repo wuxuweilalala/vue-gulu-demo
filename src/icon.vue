@@ -10,7 +10,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .g-icon {
   width: 1em;
   height: 1em;
@@ -18,7 +18,7 @@ export default {
   fill: currentColor;
   overflow: hidden;
 }
-  .loading {
-    animation: spin 1s infinite linear;
-  }
+.loading {
+  animation: spin 1s infinite linear;
+}
 </style>
